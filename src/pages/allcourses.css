@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+#highlightTwo {
+  color: blue;
+}
+.allcourses-text {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin: 10px 20px;
+}
+/* desiggners styles */
+.designers-courses {
+  max-width: 1320px;
+  margin: 3rem auto;
+  padding: 0 10px;
+}
+
+.designers-courses h2 {
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+}
+.designers-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.designers-card-item img {
+  width: 100%;
+}
+.designers-card-item h3 {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.designers-card-item p {
+  max-width: 600px;
+  margin-top: 15px;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* programming courses */
+.programming-courses {
+  max-width: 1320px;
+  margin: 3rem auto;
+  padding: 0 10px;
+}
+.programming-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+
+  margin-top: 2rem;
+}
+.programming-courses h2 {
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+}
+.programming-card-item img {
+  width: 100%;
+}
+.programming-card-item h3 {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.programming-card-item p {
+  max-width: 600px;
+  margin-top: 15px;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* dataScience schools */
+.Data-courses {
+  max-width: 1320px;
+  margin: 3rem auto;
+  padding: 0 10px;
+}
+.Data-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+
+  margin-top: 2rem;
+}
+.Data-courses h2 {
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+}
+.Data-card-item img {
+  width: 100%;
+}
+.Data-card-item h3 {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.Data-card-item p {
+  max-width: 600px;
+  margin-top: 15px;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+@media (max-width: 768px) {
+  .designers-card,
+  .programming-card,
+  .Data-card {
+    flex-direction: column;
+  }
+  .designers-card-item,
+  .programming-card-item,
+  .Data-card-item {
+    width: 100%;
+  }
+}
+@media (max-width: 432px) {
+  .designers-courses h2,
+  .programming-courses h2,
+  .Data-courses h2 {
+    font-size: 32px;
+  }
+  .designers-card-item h3,
+  .programming-card-item h3,
+  .Data-card-item h3 {
+    font-size: 27px;
+  }
+  .designers-card-item p,
+  .programming-card-item p,
+  .Data-card-item p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .allcourses-text {
+    padding: 0 2rem;
+  }
+}

@@ -1,0 +1,326 @@
+/* .course-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4rem 2rem;
+  background-color: #f8f8f8;
+  gap: 2rem;
+} */
+
+/* .course-content {
+  flex: 1;
+} */
+.frontend-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 4rem auto;
+  justify-content: space-between;
+  display: flex;
+  padding: 0 1rem;
+  gap: 120px;
+}
+.course-content h2 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  margin-bottom: 1rem;
+}
+
+.course-content p {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+
+  margin-bottom: 2rem;
+}
+
+.details-heading {
+  font-family: "Roboto", sans-serif;
+}
+.advisor-btn {
+  color: black;
+  /* padding: 0.8rem 1.5rem; */
+  padding: 16.46px 44.21px 15.54px 44.79px;
+  border: 1px solid black;
+
+  border-radius: 26.404px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+}
+
+.advisor-btn:hover {
+  background-color: #333;
+  color: white;
+}
+
+.course-features {
+  list-style: none;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.course-features li {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.course-image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.course-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 2rem;
+}
+
+.students-count {
+  position: absolute;
+  bottom: -20px;
+  background: #000;
+  color: #fff;
+  padding: 0px 32px 0px 31px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  display: flex;
+  border-radius: 114px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+
+/* overview section */
+.details-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.details-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.details-button {
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 2rem;
+  padding: 21.46px 70.21px 20.54px 70.79px;
+
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.details-button.active {
+  background: #00f; /* blue highlight */
+  color: #fff;
+}
+
+.details-button:hover {
+  background: #333;
+  color: #fff;
+}
+
+.details-content {
+  flex: 1;
+}
+
+.details-content h3 {
+  font-size: 32px;
+  margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
+  color: #00f; /* matching the active button color */
+}
+
+.details-content p {
+  color: #fafafa;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  white-space: pre-line; /* to preserve line breaks from content */
+  line-height: 1.3;
+}
+
+@media (max-width: 432px) {
+  .frontend-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 4rem auto;
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    gap: 120px;
+  }
+  .course-content h2 {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .details-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+    background-color: #000;
+    color: #fff;
+  }
+  .course-content p {
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .details-heading {
+    font-family: "Roboto", sans-serif;
+  }
+  .advisor-btn {
+    color: black;
+    /* padding: 0.8rem 1.5rem; */
+    padding: 16.46px 44.21px 15.54px 44.79px;
+    border: 1px solid black;
+
+    border-radius: 26.404px;
+    cursor: pointer;
+    margin: 2rem 0;
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+  }
+
+  .advisor-btn:hover {
+    background-color: #333;
+    color: white;
+    font-size: 17px;
+  }
+  .course-features {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+  }
+  .course-features li {
+    margin-bottom: 0.8rem;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+  }
+  .course-image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 5rem;
+  }
+
+  .course-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 2rem;
+  }
+
+  .students-count {
+    position: absolute;
+    bottom: -20px;
+    background: #000;
+    color: #fff;
+    padding: 0px 32px 0px 31px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    border-radius: 114px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+  }
+
+  .details-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 0;
+    background-color: #000;
+    color: #fff;
+  }
+
+  .details-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .details-button {
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 2rem;
+    padding: 21.46px 70.21px 20.54px 70.79px;
+
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+
+  .details-button.active {
+    background: #00f; /* blue highlight */
+    color: #fff;
+  }
+
+  .details-button:hover {
+    background: #333;
+    color: #fff;
+  }
+
+  .details-content {
+    flex: 1;
+  }
+
+  .details-content h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: "Test Söhne Breit";
+    padding: 0 10px;
+    color: #00f; /* matching the active button color */
+  }
+
+  .details-content p {
+    color: #fafafa;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    padding: 0 10px;
+    white-space: pre-line; /* to preserve line breaks from content */
+    line-height: 1.5;
+  }
+}
