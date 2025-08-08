@@ -31,7 +31,7 @@ import videoEditiing from "./assets/courses/videoEditing.png";
 import frontend from "./assets/courses/frontendDev.png";
 import backend from "./assets/courses/backendPro.png";
 import fullstack from "./assets/courses/fullstackweb.png";
-import cybersecurity from "./assets/courses/cybersecurityPro.png";
+import cybersecurity from "./assets/courses/cyberSecurityPro.png";
 
 import dataAnalysis from "./assets/courses/dataAnalysisTwo.png";
 import dataScience from "./assets/courses/dataScience.png";
