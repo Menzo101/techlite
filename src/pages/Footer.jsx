@@ -99,8 +99,7 @@ export const Footer = () => {
                 <li className="footer-flex">
                   <img src={locationicons} alt="" />
                   <div className="footer-link">
-                    Block 7A, plot 4, hilltop estate, Alimosho, Aboru 100001,
-                    Lagos, Nigeria
+                    1 Akin Osiyemi St, Allen 101233, Ikeja, Lagos,Nigeria
                   </div>
                 </li>
               </ul>

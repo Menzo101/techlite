@@ -2,6 +2,7 @@ import React from "react";
 import logoImg from "../assets/headicon.svg";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useState } from "react";
+import { FaArrowRight } from "react-icons/fa";
 import { Contactform } from "./Contactform";
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,8 +28,9 @@ export const Navbar = () => {
             <li className="top-menu">
               Courses
               <ul className="dropdown">
-                <li>
+                <li className="flex">
                   <NavLink className="new-links">School of Engineering</NavLink>
+                  <FaArrowRight id="arrow" />
 
                   <ul className="dropdown">
                     <li>
@@ -48,8 +50,9 @@ export const Navbar = () => {
                     </li>
                   </ul>
                 </li>
-                <li>
+                <li className="flex">
                   <NavLink className="new-links">School of Data</NavLink>
+                  <FaArrowRight id="arrow" />
                   <ul className="dropdown">
                     <li>
                       <NavLink className="new-links" to="/datascience">
@@ -63,8 +66,9 @@ export const Navbar = () => {
                     </li>
                   </ul>
                 </li>
-                <li>
+                <li className="flex">
                   <NavLink className="new-links"> School of Designs </NavLink>
+                  <FaArrowRight id="arrow" />
                   <ul className="dropdown">
                     <li>
                       <NavLink className="new-links">Graphics Designs</NavLink>
@@ -76,8 +80,9 @@ export const Navbar = () => {
                     </li>
                   </ul>
                 </li>
-                <li>
+                <li className="flex">
                   <NavLink className="new-links">school of AI</NavLink>
+                  <FaArrowRight id="arrow" />
                   <ul className="dropdown">
                     <li>
                       <NavLink className="new-links">Coding with AI</NavLink>
@@ -88,7 +93,7 @@ export const Navbar = () => {
                   </ul>
                 </li>
                 <li>
-                  <NavLink className="new-links" to="/allcourses">
+                  <NavLink className="new-links" id="child" to="/allcourses">
                     All Courses
                   </NavLink>
                 </li>

@@ -25,9 +25,9 @@
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-style: normal;
-  font-weight: 300;
-  line-height: 110%; /* 52.8px */
-  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 15px;
 }
 
 .community-text p {
