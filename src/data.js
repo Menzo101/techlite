@@ -23,7 +23,7 @@ import projectIcon from "./assets/icons/projectbase.svg";
 import certificateicon from "./assets/icons/certificate.svg";
 import foundationalIcon from "./assets/icons/iconSuccess.svg";
 import logoTwo from "./assets/icons/iconCoin.svg";
-import testOne from "./assets/courses/sliderOne.avif";
+import testOne from "./assets/courses/sliderone.avif";
 import testTwo from "./assets/courses/slidethree.avif";
 import uiux from "./assets/courses/designers.png";
 import graphicsDesigner from "./assets/courses/graphicsDesign.png";
