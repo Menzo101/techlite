@@ -23,7 +23,8 @@ import projectIcon from "./assets/icons/projectbase.svg";
 import certificateicon from "./assets/icons/certificate.svg";
 import foundationalIcon from "./assets/icons/iconSuccess.svg";
 import logoTwo from "./assets/icons/iconCoin.svg";
-// import testiImg from "./assets/testimonialpic.png";
+import testOne from "./assets/courses/sliderOne.avif";
+import testTwo from "./assets/courses/slidethree.avif";
 import uiux from "./assets/courses/designers.png";
 import graphicsDesigner from "./assets/courses/graphicsDesign.png";
 import videoEditiing from "./assets/courses/videoEditing.png";
@@ -32,11 +33,83 @@ import frontend from "./assets/courses/frontendDev.png";
 import backend from "./assets/courses/backendPro.png";
 import fullstack from "./assets/courses/fullstackweb.png";
 import cybersecurity from "./assets/courses/cyberSecurityPro.png";
-
+import devops from "./assets/courses/devops.png";
+import mobile from "./assets/courses/mobile.png";
 import dataAnalysis from "./assets/courses/dataAnalysisTwo.png";
 import dataScience from "./assets/courses/dataScience.png";
 import ai from "./assets/courses/Ai.png";
 
+import productmgt from "./assets/courses/productmgt.png";
+import projectmgt from "./assets/courses/projectmgt.png";
+
+import cloudMgt from "./assets/courses/cloud.png";
+import digitalMgt from "./assets/courses/digitalmarket.png";
+import ict from "./assets/courses/ict.png";
+import vr from "./assets/courses/var.png";
+import web3 from "./assets/courses/webthree.png";
+import softTesting from "./assets/courses/softwaretesting.png";
+export const foundationalCourses = [
+  {
+    id: 1,
+    title: "Cloud Computing",
+    description:
+      "Unlock your cloud computing potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+    image: cloudMgt,
+  },
+  {
+    id: 2,
+    title: "Digital Marketing",
+    description:
+      "Unlock your Digital marketing potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+    image: digitalMgt,
+  },
+  {
+    id: 3,
+    title: "Virtual Assistant",
+    description:
+      "Unlock your Virtual Assistant training potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+    image: vr,
+  },
+  {
+    id: 4,
+    title: "Ict  Essentials",
+    description:
+      "Unlock your Ict training potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+    image: ict,
+  },
+
+  {
+    id: 5,
+    title: "Web3 blockchain",
+    description:
+      "Unlock your web3 blockchain training potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+    image: web3,
+  },
+  {
+    id: 6,
+    title: "Software Testing",
+    description:
+      "Unlock your Software  training potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+    image: softTesting,
+  },
+];
+export const productSchool = [
+  {
+    id: 1,
+    title: "Product Management",
+    description:
+      "Unlock your Product Management potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+    image: productmgt,
+  },
+
+  {
+    id: 2,
+    title: "Project Management",
+    description:
+      "Unlock your Project Management potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+    image: projectmgt,
+  },
+];
 export const dataAnalysisSchools = [
   {
     id: 1,
@@ -89,6 +162,20 @@ export const allProgrammingSchools = [
     description:
       "Techlite Skills' Cybersecurity course provides essential knowledge and skills to protect systems and networks from cyber threats.",
     image: cybersecurity,
+  },
+  {
+    id: 5,
+    title: "DevOps",
+    description:
+      "Techlite Skills' DevOps course teaches continuous integration, deployment, and automation for efficient software development and operations.",
+    image: devops,
+  },
+  {
+    id: 6,
+    title: "Mobile Development",
+    description:
+      "Techlite Skills' Mobile Development course covers app development for Android and iOS, enabling students to create mobile applications.",
+    image: mobile,
   },
 ];
 export const designSchools = [
@@ -194,18 +281,14 @@ export const myImages = [
 
 export const testimonial = [
   {
-    name: "John Doe",
-    text: "This service changed my life! Absolutely wonderful.",
-  },
-  {
-    name: "Jane Smith",
+    name: "Amara",
     text: "Highly recommend to anyone. Excellent support and quality.",
-    // img: testiImg,
+    img: testOne,
   },
   {
-    name: "Sam Johnson",
+    name: "Adeola",
     text: "A fantastic experience from start to finish.",
-    // img: testiImg,
+    img: testTwo,
   },
 ];
 

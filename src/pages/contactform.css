@@ -110,3 +110,8 @@ form button:hover {
     line-height: 1.5;
   }
 }
+@media (max-width: 825px) {
+  #email {
+    font-size: 14px;
+  }
+}

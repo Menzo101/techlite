@@ -45,13 +45,14 @@ export const Faq = () => {
                   className="faqText"
                   sx={{ width: "100%", flexShrink: 0 }}
                 >
-                  What is Techlite skill hub ?
+                  What is TechElite ?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  Nulla facilisi. Phasellus sollicitudin nulla et quam mattis
-                  feugiat. Aliquam eget maximus est, id dignissim quam.
+                  TechElite is your edutech project focused on teaching people
+                  across the globe tech skills at an affordable rate, with the
+                  goal of enhancing lives.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -76,14 +77,17 @@ export const Faq = () => {
                   className="faqText"
                   sx={{ width: "100%", flexShrink: 0 }}
                 >
-                  What types of skills do Techliteskill offer ?
+                  What types of skills do TechEliteskill offer ?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  Donec placerat, lectus sed mattis semper, neque lectus feugiat
-                  lectus, varius pulvinar diam eros in elit. Pellentesque
-                  convallis laoreet laoreet.
+                  TechElite intends to offer practical, in-demand tech skills
+                  such as web and mobile development, UI/UX design, data
+                  analytics, and cloud technologies. The focus is on hands-on
+                  learning that equips learners to secure jobs, start
+                  businesses, and improve their livelihoods at an affordable
+                  cost..
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -114,9 +118,10 @@ export const Faq = () => {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
-                  Integer sit amet egestas eros, vitae egestas augue. Duis vel
-                  est augue.
+                  just basic computer literacy, access to a device with
+                  internet, and a willingness to learn. Any needed foundational
+                  knowledge, like basic coding or digital skills, would be
+                  taught at the start of the program.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -146,9 +151,9 @@ export const Faq = () => {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
-                  Integer sit amet egestas eros, vitae egestas augue. Duis vel
-                  est augue.
+                  Yes — TechElite offers completion certificates for each course
+                  or skill track, and possibly industry-recognized
+                  certifications if partnered with platforms like AWS, Google.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -175,14 +180,16 @@ export const Faq = () => {
                   className="faqText"
                   sx={{ width: "100%", flexShrink: 0 }}
                 >
-                  Are there any assessments or certifications offered?
+                  I'm still working/a student, can I still join a Techliteskills
+                  Hub programme?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
-                  Integer sit amet egestas eros, vitae egestas augue. Duis vel
-                  est augue.
+                  Yes — TechEliteSkills programs can be designed to fit flexible
+                  schedules, so working professionals and students can join. You
+                  can learn at your own pace through evening, weekend, or fully
+                  online classes without disrupting your job or studies.
                 </Typography>
               </AccordionDetails>
             </Accordion>

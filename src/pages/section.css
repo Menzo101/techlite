@@ -61,9 +61,10 @@
 
 .stat-card {
   background: white;
+  border-radius: 10px;
   padding: 38px 32px 58px 38px;
-  /* 
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); */
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .stat-icon img {
@@ -83,6 +84,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 
   background-color: #e2e2e2;
 }
@@ -169,16 +171,24 @@
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 825px) {
   .community-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
   }
   .community-stats {
-    width: 96%;
+    width: 98%;
   }
   .stat-card {
     margin: 3rem 2rem;
+
+    height: 20vh;
+  }
+  .join-button {
+    font-size: 18px;
+  }
+  .stat-para {
+    margin-top: 7px;
   }
 }

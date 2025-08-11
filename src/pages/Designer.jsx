@@ -8,6 +8,7 @@ import { Slider } from "./Slider.jsx";
 import { Paymentcomponents } from "./Paymentcomponents.jsx";
 import { Contactform } from "./Contactform.jsx";
 import { Navbar } from "./Navbar.jsx";
+import { NavLink } from "react-router-dom";
 export const Designer = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
@@ -22,7 +23,9 @@ export const Designer = () => {
               principles, methodologies, and tools to create intuitive <br />{" "}
               and engaging digital experiences
             </p>
-            <button className="advisor-btn">Speak to advisor</button>
+            <NavLink to="/contact">
+              <button className="advisor-btn">Speak to advisor</button>
+            </NavLink>
 
             <ul className="course-features">
               <li>4 Months</li>

@@ -8,6 +8,7 @@ import { Service } from "./Service.jsx";
 import { Paymentcomponents } from "./Paymentcomponents.jsx";
 import { Contactform } from "./Contactform.jsx";
 import { Navbar } from "./Navbar.jsx";
+import { NavLink } from "react-router-dom";
 
 export const Backend = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -28,7 +29,9 @@ export const Backend = () => {
               real-world projects. Build dynamic websites and apps, <br /> and
               launch or advance your career.
             </p>
-            <button className="advisor-btn">Speak to advisor</button>
+            <NavLink to="/contact">
+              <button className="advisor-btn">Speak to advisor</button>
+            </NavLink>
 
             <ul className="course-features">
               <li>4 Months</li>

@@ -8,6 +8,7 @@ import DataScienceImage from "../assets/dataanalysis.png";
 import { Paymentcomponents } from "./Paymentcomponents.jsx";
 import { Contactform } from "./Contactform.jsx";
 import { Navbar } from "./Navbar.jsx";
+import { NavLink } from "react-router-dom";
 
 export const Science = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -24,7 +25,9 @@ export const Science = () => {
               <br /> from cyber threats. Gain comprehensive knowledge and <br />
               prepare for a career in this in-demandfield.
             </p>
-            <button className="advisor-btn">Speak to advisor</button>
+            <NavLink to="/contact">
+              <button className="advisor-btn">Speak to advisor</button>
+            </NavLink>
 
             <ul className="course-features">
               <li>4 Months</li>

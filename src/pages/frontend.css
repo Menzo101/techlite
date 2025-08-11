@@ -324,3 +324,51 @@
     line-height: 1.5;
   }
 }
+
+@media (max-width: 820px) {
+  .frontend-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+  .course-content h2 {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+    margin-bottom: 1rem;
+  }
+
+  .course-content p {
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+
+    line-height: 1.5;
+
+    margin-bottom: 10px;
+  }
+  .advisor-btn {
+    color: black;
+    /* padding: 0.8rem 1.5rem; */
+    padding: 16.46px 44.21px 15.54px 44.79px;
+    border: 1px solid black;
+
+    border-radius: 26.404px;
+    cursor: pointer;
+    margin-top: 2rem;
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+  }
+
+  .advisor-btn:hover {
+    background-color: #333;
+    color: white;
+  }
+  .course-image-container img {
+    max-width: 70%;
+  }
+}

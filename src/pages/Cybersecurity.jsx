@@ -8,6 +8,7 @@ import { Slider } from "./Slider.jsx";
 import { Paymentcomponents } from "./Paymentcomponents.jsx";
 import { Contactform } from "./Contactform.jsx";
 import { Navbar } from "./Navbar.jsx";
+import { NavLink } from "react-router-dom";
 export const Cybersecurity = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
@@ -23,7 +24,9 @@ export const Cybersecurity = () => {
               <br /> from cyber threats. Gain comprehensive knowledge and <br />
               prepare for a career in this in-demand field
             </p>
-            <button className="advisor-btn">Speak to advisor</button>
+            <NavLink to="/contact">
+              <button className="advisor-btn">Speak to advisor</button>
+            </NavLink>
 
             <ul className="course-features">
               <li>4 Months</li>

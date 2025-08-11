@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-body {
-  color: black;
-  font-family: "Inter", sans-serif;
-}
 #highlightTwo {
   color: blue;
 }
@@ -24,7 +20,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
 }
 .designers-card {
   display: grid;
@@ -71,7 +67,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
 }
 .programming-card-item img {
   width: 100%;
@@ -112,7 +108,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
 }
 .Data-card-item img {
   width: 100%;

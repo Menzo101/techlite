@@ -4,6 +4,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { Contactform } from "./Contactform";
+
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
@@ -14,7 +15,9 @@ export const Navbar = () => {
   return (
     <>
       <header className="header-container">
-        <img src={logoImg} alt="" />
+        <NavLink to="/" className="logo">
+          <img src={logoImg} alt="" />
+        </NavLink>
 
         {/* second nav */}
         <div className={`menu-container ${menuOpen ? "active" : ""}`}>
@@ -104,7 +107,6 @@ export const Navbar = () => {
             </p>
           </ul>
         </div>
-
         <div className="head-btn">
           {/* <button to="/contact">Apply now</button> */}
           <button onClick={() => navigate("/contact")}>Apply now</button>

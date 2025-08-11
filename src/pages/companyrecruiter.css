@@ -59,3 +59,10 @@
     width: 70px;
   }
 }
+
+@media (max-width: 825px) {
+  .company-icons {
+    display: flex;
+    gap: 2rem;
+  }
+}

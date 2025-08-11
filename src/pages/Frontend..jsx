@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./frontend.css";
+import { NavLink } from "react-router-dom";
 import { tabs } from "../data.js";
 import { Companyrecruiter } from "./Companyrecruiter.jsx";
 import { Slider } from "./Slider.jsx";
@@ -29,7 +30,9 @@ export const Frontend = () => {
               projects. Build dynamic websites and apps, <br /> and launch or
               advance your career.
             </p>
-            <button className="advisor-btn">Speak to advisor</button>
+            <NavLink to="/contact">
+              <button className="advisor-btn">Speak to advisor</button>
+            </NavLink>
 
             <ul className="course-features">
               <li>4 Months</li>

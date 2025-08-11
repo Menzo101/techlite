@@ -12,12 +12,25 @@ export const Contactform = () => {
             action="https://formsubmit.co/techliteskills@gmail.com"
             method="POST"
           >
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Enquiry from TechLiteSkills Website"
+            />
+            <input
+              type="hidden"
+              name="_from"
+              value="no-reply@techliteskills.com"
+            />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
             <div className="row">
               <input
                 type="text"
                 placeholder="First Name"
                 name="firstname"
                 required
+                id="email"
               />
               <input type="hidden" name="_captcha" value="false" />
               <input
@@ -25,6 +38,7 @@ export const Contactform = () => {
                 placeholder="Surname"
                 name="lastname"
                 required
+                id="email"
               />
             </div>
             <div className="row">
@@ -34,15 +48,36 @@ export const Contactform = () => {
                   placeholder="Phone number"
                   name="phonenumber"
                   required
+                  id="email"
+                />
+              </div>
+            </div>
+
+            {/* speak to advisor  */}
+            <div className="row">
+              <div className="phone-input">
+                <input
+                  type="tel"
+                  placeholder=" Speak to advisor (Optional)"
+                  name="speakToAdvisor"
+                  required
+                  id="email"
                 />
               </div>
             </div>
             <div className="row">
-              <input type="email" placeholder="Email" name="email" required />
+              <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                required
+                id="email"
+              />
             </div>
+
             <div className="row">
               <select name="program" required>
-                <option value="" selected>
+                <option value="" selected disabled id="lastOne">
                   What program do you want enquiries on?
                 </option>
                 <option value="web-dev">Web Development</option>
