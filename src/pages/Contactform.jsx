@@ -89,6 +89,8 @@ export const Contactform = () => {
                 <option value="Ai">Ai&&GenAi</option>
                 <option value="frontend">Frontend Development</option>
                 <option value="backend">Backend Development</option>
+                <option value="devops">Devops</option>
+                <option value="AiCoding">CodingWithAi</option>
               </select>
             </div>
             <button type="submit">Submit</button>

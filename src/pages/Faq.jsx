@@ -49,7 +49,7 @@ export const Faq = () => {
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography className="faqTextTwo">
                   TechElite is your edutech project focused on teaching people
                   across the globe tech skills at an affordable rate, with the
                   goal of enhancing lives.
@@ -81,7 +81,7 @@ export const Faq = () => {
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography className="faqTextTwo">
                   TechElite intends to offer practical, in-demand tech skills
                   such as web and mobile development, UI/UX design, data
                   analytics, and cloud technologies. The focus is on hands-on
@@ -117,11 +117,10 @@ export const Faq = () => {
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
-                  just basic computer literacy, access to a device with
-                  internet, and a willingness to learn. Any needed foundational
-                  knowledge, like basic coding or digital skills, would be
-                  taught at the start of the program.
+                <Typography className="faqTextTwo">
+                  access to a device with internet, and a willingness to learn.
+                  Any needed foundational knowledge, like basic coding or
+                  digital skills, would be taught at the start of the program.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -150,7 +149,7 @@ export const Faq = () => {
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography className="faqTextTwo">
                   Yes — TechElite offers completion certificates for each course
                   or skill track, and possibly industry-recognized
                   certifications if partnered with platforms like AWS, Google.
@@ -185,7 +184,7 @@ export const Faq = () => {
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
+                <Typography className="faqTextTwo">
                   Yes — TechEliteSkills programs can be designed to fit flexible
                   schedules, so working professionals and students can join. You
                   can learn at your own pace through evening, weekend, or fully

@@ -6,6 +6,7 @@ import { allProgrammingSchools } from "../data";
 import { dataAnalysisSchools } from "../data";
 import { productSchool } from "../data";
 import { foundationalCourses } from "../data";
+import { NavLink, useNavigate } from "react-router-dom";
 
 export const Allcourses = () => {
   return (
@@ -22,7 +23,10 @@ export const Allcourses = () => {
           {designSchools.map((course) => (
             <div className="designers-card-item" key={course.id}>
               <img src={course.image} alt={course.title} />
-              <h3>{course.title}</h3>
+              <NavLink id="designLink" to="/contact">
+                <h3>{course.title}</h3>
+              </NavLink>
+
               <p>{course.description}</p>
             </div>
           ))}
@@ -36,7 +40,10 @@ export const Allcourses = () => {
           {allProgrammingSchools.map((course) => (
             <div className="programming-card-item" key={course.id}>
               <img src={course.image} alt={course.title} />
-              <h3>{course.title}</h3>
+              <NavLink id="designLink" to="/contact">
+                <h3>{course.title}</h3>
+              </NavLink>
+
               <p>{course.description}</p>
             </div>
           ))}
@@ -51,7 +58,10 @@ export const Allcourses = () => {
           {dataAnalysisSchools.map((course) => (
             <div className="Data-card-item" key={course.id}>
               <img src={course.image} alt={course.title} />
-              <h3>{course.title}</h3>
+              <NavLink to="/contact" id="designLink">
+                <h3>{course.title}</h3>
+              </NavLink>
+
               <p>{course.description}</p>
             </div>
           ))}
@@ -59,13 +69,16 @@ export const Allcourses = () => {
       </section>
 
       {/* school of management */}
-      <section className="Data-courses">
+      <section className="management-courses">
         <h2>School of Management</h2>
-        <div className="Data-card">
+        <div className="management-card">
           {productSchool.map((course) => (
-            <div className="Data-card-item" key={course.id}>
+            <div className="management-card-item" key={course.id}>
               <img src={course.image} alt={course.title} />
-              <h3>{course.title}</h3>
+              <NavLink to="/contact" id="designLink">
+                <h3>{course.title}</h3>
+              </NavLink>
+
               <p>{course.description}</p>
             </div>
           ))}
@@ -73,13 +86,16 @@ export const Allcourses = () => {
       </section>
 
       {/* school of others */}
-      <section className="Data-courses">
+      <section className="others-courses">
         <h2>School of others</h2>
-        <div className="Data-card">
+        <div className="others-card">
           {foundationalCourses.map((course) => (
-            <div className="Data-card-item" key={course.id}>
+            <div className="others-card-item" key={course.id}>
               <img src={course.image} alt={course.title} />
-              <h3>{course.title}</h3>
+              <NavLink to="/contact" id="designLink">
+                <h3>{course.title}</h3>
+              </NavLink>
+
               <p>{course.description}</p>
             </div>
           ))}

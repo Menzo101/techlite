@@ -28,8 +28,18 @@
   gap: 2rem;
   margin-top: 2rem;
 }
+
 .designers-card-item img {
   width: 100%;
+  transition: transform 1s ease-in-out;
+  overflow: hidden;
+}
+.designers-card-item img:hover {
+  transform: translateY(-20px);
+}
+#designLink {
+  text-decoration: none;
+  color: black;
 }
 .designers-card-item h3 {
   margin: 10px 0;
@@ -71,6 +81,10 @@
 }
 .programming-card-item img {
   width: 100%;
+  transition: transform 1s ease-in-out;
+}
+.programming-card-item img:hover {
+  transform: translateY(-20px);
 }
 .programming-card-item h3 {
   margin: 10px 0;
@@ -112,6 +126,10 @@
 }
 .Data-card-item img {
   width: 100%;
+  transition: transform 1s ease-in-out;
+}
+.Data-card-item img:hover {
+  transform: translateY(-20px);
 }
 .Data-card-item h3 {
   margin: 10px 0;
@@ -129,6 +147,91 @@
   font-style: normal;
   font-weight: 300;
 }
+/* Management styles  */
+.management-courses {
+  max-width: 1320px;
+  margin: 3rem auto;
+  padding: 0 10px;
+}
+.management-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.management-courses h2 {
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+.management-card-item img {
+  width: 100%;
+  transition: transform 1s ease-in-out;
+}
+.management-card-item img:hover {
+  transform: translateY(-20px);
+}
+.management-card-item h3 {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.management-card-item p {
+  max-width: 600px;
+  margin-top: 15px;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+/* others styles  */
+.others-courses {
+  max-width: 1320px;
+  margin: 3rem auto;
+  padding: 0 10px;
+}
+.others-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.others-courses h2 {
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+.others-card-item img {
+  width: 100%;
+  transition: transform 1s ease-in-out;
+}
+.others-card-item img:hover {
+  transform: translateY(-20px);
+}
+.others-card-item h3 {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.others-card-item p {
+  max-width: 600px;
+  margin-top: 15px;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+
 @media (max-width: 768px) {
   .designers-card,
   .programming-card,
