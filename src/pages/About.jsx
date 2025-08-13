@@ -16,7 +16,7 @@ export const About = () => {
           <div className="about-content">
             <h1>About us</h1>
             <p>
-              Techliteskills Hub is an online learning platform that offers
+              TechElite skills is an online learning platform that offers
               affordable and accessible tech skill training programs designed to
               empower individuals <br /> to thrive in the digital economy.
             </p>
@@ -82,7 +82,7 @@ export const About = () => {
         <section className="program-section">
           <h2>Our Program</h2>
           <p className="program-description">
-            Techliteskills Hub offers affordable programs to equip individuals
+            TechElite skills offers affordable programs to equip individuals
             with essential tech skills. Our courses cater to all levels, from
             beginners to seasoned professionals, and provide the skills needed
             to succeed in tech.

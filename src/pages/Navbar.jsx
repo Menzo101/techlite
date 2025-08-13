@@ -4,6 +4,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { Contactform } from "./Contactform";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,8 +33,10 @@ export const Navbar = () => {
               Courses
               <ul className="dropdown">
                 <li className="flex">
-                  <NavLink className="new-links">School of Engineering</NavLink>
-                  <FaArrowRight id="arrow" />
+                  <NavLink className="new-links" to="/frontend">
+                    School of Engineering
+                  </NavLink>
+                  <MdKeyboardArrowRight id="arrow" />
 
                   <ul className="dropdown">
                     <li>
@@ -54,8 +57,11 @@ export const Navbar = () => {
                   </ul>
                 </li>
                 <li className="flex">
-                  <NavLink className="new-links">School of Data</NavLink>
-                  <FaArrowRight id="arrow" />
+                  <NavLink className="new-links" to="/datascience">
+                    School of Data
+                  </NavLink>
+
+                  <MdKeyboardArrowRight id="arrow" />
                   <ul className="dropdown">
                     <li>
                       <NavLink className="new-links" to="/datascience">
@@ -70,8 +76,12 @@ export const Navbar = () => {
                   </ul>
                 </li>
                 <li className="flex">
-                  <NavLink className="new-links"> School of Designs </NavLink>
-                  <FaArrowRight id="arrow" />
+                  <NavLink className="new-links" to="/allcourses">
+                    {" "}
+                    School of Designs{" "}
+                  </NavLink>
+
+                  <MdKeyboardArrowRight id="arrow" />
                   <ul className="dropdown">
                     <li>
                       <NavLink className="new-links">Graphics Designs</NavLink>
@@ -84,8 +94,11 @@ export const Navbar = () => {
                   </ul>
                 </li>
                 <li className="flex">
-                  <NavLink className="new-links">school of AI</NavLink>
-                  <FaArrowRight id="arrow" />
+                  <NavLink className="new-links" to="/backend">
+                    school of AI
+                  </NavLink>
+                  <MdKeyboardArrowRight id="arrow" />
+
                   <ul className="dropdown">
                     <li>
                       <NavLink className="new-links">Coding with AI</NavLink>
@@ -103,7 +116,7 @@ export const Navbar = () => {
               </ul>
             </li>
             <p className="nana-btn" onClick={toggleMenu}>
-              x
+              x cancel
             </p>
           </ul>
         </div>

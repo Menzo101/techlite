@@ -23,8 +23,7 @@ export const Frontend = () => {
               Front-end Web <br /> Development Course
             </h2>
             <p>
-              Unlock your web development potential with TechEliteskills Hub.{" "}
-              <br />
+              Unlock your web development potential with TechEliteskills. <br />
               Our comprehensive course covers foundational <br /> concepts to
               advanced techniques, with hands-on training <br /> and real-world
               projects. Build dynamic websites and apps, <br /> and launch or

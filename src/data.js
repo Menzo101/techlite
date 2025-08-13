@@ -53,28 +53,28 @@ export const foundationalCourses = [
     id: 1,
     title: "Cloud Computing",
     description:
-      "Unlock your cloud computing potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+      "Unlock your cloud computing potential with TechElite skills  Our comprehensive course covers foundational concepts to advanced techniques",
     image: cloudMgt,
   },
   {
     id: 2,
     title: "Digital Marketing",
     description:
-      "Unlock your Digital marketing potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+      "Unlock your Digital marketing potential with TechElite skills . Our comprehensive course covers foundational concepts to advanced techniques",
     image: digitalMgt,
   },
   {
     id: 3,
     title: "Virtual Assistant",
     description:
-      "Unlock your Virtual Assistant training potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+      "Unlock your Virtual Assistant training potential with TechElite skills . Our comprehensive course covers foundational concepts to advanced techniques",
     image: vr,
   },
   {
     id: 4,
     title: "Ict  Essentials",
     description:
-      "Unlock your Ict training potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+      "Unlock your Ict training potential with TechElite skills . Our comprehensive course covers foundational concepts to advanced techniques",
     image: ict,
   },
 
@@ -82,14 +82,14 @@ export const foundationalCourses = [
     id: 5,
     title: "Web3 blockchain",
     description:
-      "Unlock your web3 blockchain training potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+      "Unlock your web3 blockchain training potential with TechElite skills . Our comprehensive course covers foundational concepts to advanced techniques",
     image: web3,
   },
   {
     id: 6,
     title: "Software Testing",
     description:
-      "Unlock your Software  training potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+      "Unlock your Software  training potential with TechElite skills . Our comprehensive course covers foundational concepts to advanced techniques",
     image: softTesting,
   },
 ];
@@ -98,7 +98,7 @@ export const productSchool = [
     id: 1,
     title: "Product Management",
     description:
-      "Unlock your Product Management potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+      "Unlock your Product Management potential with TechElite skills . Our comprehensive course covers foundational concepts to advanced techniques",
     image: productmgt,
   },
 
@@ -106,7 +106,7 @@ export const productSchool = [
     id: 2,
     title: "Project Management",
     description:
-      "Unlock your Project Management potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+      "Unlock your Project Management potential with TechElite skills  Our comprehensive course covers foundational concepts to advanced techniques",
     image: projectmgt,
   },
 ];
@@ -115,21 +115,21 @@ export const dataAnalysisSchools = [
     id: 1,
     title: "Data Analysis",
     description:
-      "Unlock your Data Analysis  potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+      "Unlock your Data Analysis  potential with TechElite skills . Our comprehensive course covers foundational concepts to advanced techniques",
     image: dataAnalysis,
   },
   {
     id: 2,
     title: "Data Science",
     description:
-      "Unlock your Data science  potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+      "Unlock your Data science  potential with TechElite skills. Our comprehensive course covers foundational concepts to advanced techniques",
     image: dataScience,
   },
   {
     id: 3,
     title: "AI",
     description:
-      "Unlock your Ai  potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques, with...",
+      "Unlock your Ai  potential with TechElite skills. Our comprehensive course covers foundational concepts to advanced techniques, with...",
     image: ai,
   },
 ];
@@ -139,42 +139,42 @@ export const allProgrammingSchools = [
     id: 1,
     title: "Frontend Technologies",
     description:
-      "Techlite Skills' Frontend Technologies course covers HTML, CSS, and JavaScript, enabling students to create interactive and visually appealing web applications.",
+      "TechElite Skills' Frontend Technologies course covers HTML, CSS, and JavaScript, enabling students to create interactive and visually appealing web applications.",
     image: frontend,
   },
   {
     id: 2,
     title: "Backend Technologies",
     description:
-      "Techlite Skills' Backend Technologies course teaches server-side programming, database management, and API development for robust web applications.",
+      "TechElite Skills' Backend Technologies course teaches server-side programming, database management, and API development for robust web applications.",
     image: backend,
   },
   {
     id: 3,
     title: "Fullstack Development",
     description:
-      "Techlite Skills' Fullstack Development course combines frontend and backend skills, enabling students to build complete web applications from scratch.",
+      "TechElite Skills' Fullstack Development course combines frontend and backend skills, enabling students to build complete web applications from scratch.",
     image: fullstack,
   },
   {
     id: 4,
     title: "Cybersecurity",
     description:
-      "Techlite Skills' Cybersecurity course provides essential knowledge and skills to protect systems and networks from cyber threats.",
+      "TechElite Skills' Cybersecurity course provides essential knowledge and skills to protect systems and networks from cyber threats.",
     image: cybersecurity,
   },
   {
     id: 5,
     title: "DevOps",
     description:
-      "Techlite Skills' DevOps course teaches continuous integration, deployment, and automation for efficient software development and operations.",
+      "TechElite Skills' DevOps course teaches continuous integration, deployment, and automation for efficient software development and operations.",
     image: devops,
   },
   {
     id: 6,
     title: "Mobile Development",
     description:
-      "Techlite Skills' Mobile Development course covers app development for Android and iOS, enabling students to create mobile applications.",
+      "TechElite Skills' Mobile Development course covers app development for Android and iOS, enabling students to create mobile applications.",
     image: mobile,
   },
 ];
@@ -183,21 +183,21 @@ export const designSchools = [
     id: 1,
     title: "UI/UX Design",
     description:
-      "Techlite Skills' UI/UX Design training teaches user-centered design principles, creating intuitive and visually appealing digital products that enhance user experience and drive business success through effective design solutions.",
+      "TechElite Skills' UI/UX Design training teaches user-centered design principles, creating intuitive and visually appealing digital products that enhance user experience and drive business success through effective design solutions.",
     image: uiux,
   },
   {
     id: 2,
     title: "Graphics Design",
     description:
-      "Techlite Skills' Graphics Design course teaches visual design, digital graphics, and branding, enabling students to create visually appealing and effective design solutions.",
+      "TechElite Skills' Graphics Design course teaches visual design, digital graphics, and branding, enabling students to create visually appealing and effective design solutions.",
     image: graphicsDesigner,
   },
   {
     id: 3,
     title: "Video Editing",
     description:
-      "Unlock your web development potential with Techliteskills Hub. Our comprehensive course covers foundational concepts to advanced techniques",
+      "Unlock your web development potential with TechElite skills . Our comprehensive course covers foundational concepts to advanced techniques",
     image: videoEditiing,
   },
 ];

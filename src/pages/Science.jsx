@@ -20,9 +20,9 @@ export const Science = () => {
           <div className="course-content">
             <h2>Data Science Course</h2>
             <p>
-              Techliteskills Hub's Cybersecurity course equips learners <br />{" "}
-              with essential skills to protect systems, networks, and data{" "}
-              <br /> from cyber threats. Gain comprehensive knowledge and <br />
+              Techlite skills Cybersecurity course equips learners <br /> with
+              essential skills to protect systems, networks, and data <br />{" "}
+              from cyber threats. Gain comprehensive knowledge and <br />
               prepare for a career in this in-demandfield.
             </p>
             <NavLink to="/contact">

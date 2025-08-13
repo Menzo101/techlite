@@ -18,7 +18,7 @@ export const Footer = () => {
             <div className="footerOne-container">
               <img src={logoImg} alt="" className="footerOne-image" />
               <p className="firstFooter-text">
-                Techliteskills Hub is a registered ICT Training company in Lagos
+                TechElite skill is a registered ICT Training company in Lagos
                 Nigeria. Over the years, we have trained several students in
                 Canada, UK, United States, Nigeria and more.
               </p>
@@ -93,7 +93,7 @@ export const Footer = () => {
                 </li>
                 <li className="footer-flex">
                   <img src={directbox} alt="" className="footer-image" />
-                  <div className="footer-link">techliteskills@gmail.com</div>
+                  <div className="footer-link">TechEliteskill@gmail.com</div>
                 </li>
 
                 <li className="footer-flex">

@@ -45,14 +45,14 @@ export const Faq = () => {
                   className="faqText"
                   sx={{ width: "100%", flexShrink: 0 }}
                 >
-                  What is TechElite ?
+                  What is TechElite skill ?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography className="faqTextTwo">
-                  TechElite is your edutech project focused on teaching people
-                  across the globe tech skills at an affordable rate, with the
-                  goal of enhancing lives.
+                  TechElite skill is your edutech project focused on teaching
+                  people across the globe tech skills at an affordable rate,
+                  with the goal of enhancing lives.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -77,7 +77,7 @@ export const Faq = () => {
                   className="faqText"
                   sx={{ width: "100%", flexShrink: 0 }}
                 >
-                  What types of skills do TechEliteskill offer ?
+                  What types of skills do TechElite skill offer ?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
@@ -150,8 +150,8 @@ export const Faq = () => {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography className="faqTextTwo">
-                  Yes — TechElite offers completion certificates for each course
-                  or skill track, and possibly industry-recognized
+                  Yes — TechElite Skills offers completion certificates for each
+                  course or skill track, and possibly industry-recognized
                   certifications if partnered with platforms like AWS, Google.
                 </Typography>
               </AccordionDetails>
@@ -179,13 +179,13 @@ export const Faq = () => {
                   className="faqText"
                   sx={{ width: "100%", flexShrink: 0 }}
                 >
-                  I'm still working/a student, can I still join a Techliteskills
-                  Hub programme?
+                  I'm still working/a student, can I still join a TechElite
+                  skill programme?
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Typography className="faqTextTwo">
-                  Yes — TechEliteSkills programs can be designed to fit flexible
+                  Yes — TechElite Skill programs can be designed to fit flexible
                   schedules, so working professionals and students can join. You
                   can learn at your own pace through evening, weekend, or fully
                   online classes without disrupting your job or studies.

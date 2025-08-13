@@ -8,7 +8,7 @@ export const Paymentcomponents = () => {
         <div className="container">
           <h2>Our Payment Options</h2>
           <p className="subtitle">
-            Flexible payment options at Techliteskills Hub. Affordable plans to
+            Flexible payment options at TechElite skills . Affordable plans to
             fit your needs, making quality tech education accessible to
             everyone.
           </p>
@@ -41,7 +41,7 @@ export const Paymentcomponents = () => {
           </div>
 
           <p className="bottom-text">
-            Start your tech journey with Techliteskills Hub’s flexible payment
+            Start your tech journey with TechElite skills flexible payment
             options. Contact our admissions team for assistance and let's take
             the first step together!
           </p>

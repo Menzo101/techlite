@@ -24,10 +24,10 @@ export const Backend = () => {
             </h2>
             <p>
               Unlock your web development potential with TechEliteskills <br />{" "}
-              Hub. Our comprehensive course covers foundational <br /> concepts
-              to advanced techniques, with hands-on training <br /> and
-              real-world projects. Build dynamic websites and apps, <br /> and
-              launch or advance your career.
+              . Our comprehensive course covers foundational <br /> concepts to
+              advanced techniques, with hands-on training <br /> and real-world
+              projects. Build dynamic websites and apps, <br /> and launch or
+              advance your career.
             </p>
             <NavLink to="/contact">
               <button className="advisor-btn">Speak to advisor</button>

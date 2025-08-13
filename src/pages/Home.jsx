@@ -222,7 +222,7 @@ export const Home = () => {
               <SwiperSlide key={index}>
                 <div className="testimonial-card">
                   <p>
-                    Enrolling in TechEliteskills data analysis program was a
+                    Enrolling in TechEliteskill data analysis program was a
                     game-changer! The comprehensive curriculum, hands-on
                     projects, and supportive instructors gave me the skills and
                     confidence to excel in data analysis. Now, I can extract

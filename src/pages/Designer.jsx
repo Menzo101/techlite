@@ -19,9 +19,9 @@ export const Designer = () => {
           <div className="course-content">
             <h2>UI/UX Designer Course</h2>
             <p>
-              Master UX/UI design with Techliteskills Hub Learn <br />{" "}
-              principles, methodologies, and tools to create intuitive <br />{" "}
-              and engaging digital experiences
+              Master UX/UI design with Techlite skills Learn <br /> principles,
+              methodologies, and tools to create intuitive <br /> and engaging
+              digital experiences
             </p>
             <NavLink to="/contact">
               <button className="advisor-btn">Speak to advisor</button>

@@ -17,7 +17,7 @@ export const LearnPace = () => {
             <div className="about-content">
               <h1>Learn at your place</h1>
               <p>
-                Techliteskills Hub is an online learning platform that offers
+                Techlite skills is an online learning platform that offers
                 affordable and accessible tech skill training programs designed
                 to empower individuals <br /> to thrive in the digital economy.
               </p>

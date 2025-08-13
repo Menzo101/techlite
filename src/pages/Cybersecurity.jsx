@@ -19,9 +19,9 @@ export const Cybersecurity = () => {
           <div className="course-content">
             <h2>Cyber Security Course</h2>
             <p>
-              Techliteskills Hub's Cybersecurity course equips learners <br />{" "}
-              with essential skills to protect systems, networks, and data{" "}
-              <br /> from cyber threats. Gain comprehensive knowledge and <br />
+              Techlite skills Cybersecurity course equips learners <br /> with
+              essential skills to protect systems, networks, and data <br />{" "}
+              from cyber threats. Gain comprehensive knowledge and <br />
               prepare for a career in this in-demand field
             </p>
             <NavLink to="/contact">
