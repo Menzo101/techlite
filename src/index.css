@@ -1356,22 +1356,26 @@
     margin-top: 0;
   }
 }
+
 @media (max-width: 432px) {
   .menu {
     background-color: black;
     position: fixed;
-    border-radius: 0;
-    height: 50vh;
-    left: 0;
-    right: 0;
 
-    top: 0;
-    border-bottom-left-radius: 170px;
-    border-bottom-right-radius: 35px;
+    height: 50vh;
+
+    right: 0;
+    width: 100%;
+    bottom: 0;
   }
 
   .top-menu {
     display: block;
+  }
+  .dropdown {
+    position: absolute;
+    left: -10rem;
+    top: 50px;
   }
 
   .menu-container {
