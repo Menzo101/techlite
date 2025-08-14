@@ -108,13 +108,14 @@ export const Navbar = () => {
                     </li>
                   </ul>
                 </li>
-                <li>
+                <li className="flex">
                   <NavLink className="new-links" id="child" to="/allcourses">
                     All Courses
                   </NavLink>
                 </li>
               </ul>
             </li>
+
             <p className="nana-btn" onClick={toggleMenu}>
               x cancel
             </p>

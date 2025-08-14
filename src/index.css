@@ -1374,8 +1374,9 @@
   }
   .dropdown {
     position: absolute;
+    /* left: -17rem; */
+    top: 40px;
     left: -10rem;
-    top: 50px;
   }
 
   .menu-container {
@@ -1392,7 +1393,7 @@
 
   .nana-btn {
     padding: 0 20px;
-    font-size: 30px;
+    font-size: 20px;
     display: block;
 
     position: absolute;
@@ -1409,17 +1410,18 @@
   }
 
   .top-menu {
-    font-size: 15px;
+    font-size: 16px;
     background-color: grey;
     z-index: 10;
     height: 4vh;
     top: 15px;
     display: flex;
-    margin: 0 1rem;
+    margin: 0 10px;
   }
 
   .head-btn {
     font-size: 16px;
+    display: block;
   }
 
   .hamburger {
