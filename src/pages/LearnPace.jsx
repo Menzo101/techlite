@@ -88,7 +88,7 @@ export const LearnPace = () => {
         <section className="learn-section">
           <div className="learn-container">
             <div className="learn-content">
-              <h1>Learn at your place</h1>
+              <h1>Learn at your pace</h1>
               <p>
                 TECH ELITE SKILLS is an online school focused on your success.{" "}
                 <br />
