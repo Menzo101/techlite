@@ -1687,6 +1687,7 @@
     top: 15px;
     display: flex;
     margin: 0 10px;
+    padding: 10px 10px;
   }
 
   .head-btn {
@@ -2378,7 +2379,6 @@
     flex-direction: column;
     padding: 2rem 0;
     margin: 0;
-    flex-wrap: wrap;
   }
   .learn-content h1 {
     font-family: "Roboto", sans-serif;
@@ -2392,12 +2392,138 @@
     color: white;
   }
   .learn-content p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.7;
     font-family: "Inter", sans-serif;
 
     color: white;
     margin: 0;
-    padding: 10px 10px;
+    padding: 10px 0;
+  }
+  .learn-image img {
+    max-width: 100%;
+  }
+  .why-title {
+    font-family: "Roboto", sans-serif;
+
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .why-subtitle {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 30px;
+  }
+  .paceslider-header h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .paceslider-header p {
+    line-height: 1.5;
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+    padding: 0 5px;
+  }
+  .journey-title {
+    text-align: center;
+
+    margin-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 34px;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+  .journey-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .journey-steps {
+    margin-top: 15px;
+  }
+  .icon {
+    font-size: 30px;
+  }
+  .step p {
+    font-size: 16px;
+    color: red;
+    margin: 3px 0;
+    font-size: 16px;
+    color: #555;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+  .tf-container {
+    text-align: center;
+    padding: 1rem 0;
+    background: #fff;
+  }
+
+  .tf-title {
+    font-family: "Roboto", sans-serif;
+
+    font-size: 40px;
+
+    font-weight: 500;
+    line-height: 1.5;
+
+    margin-bottom: 15px;
+  }
+
+  .tf-subtitle {
+    font-family: "Inter", sans-serif;
+    color: #222;
+    margin-bottom: 25px;
+    line-height: 1.5;
+  }
+
+  .tf-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .tf-btn {
+    font-size: 1rem;
+    padding: 15px 25px;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+    outline: none;
+    min-width: 220px;
+    margin-bottom: 8px;
+  }
+
+  .tf-btn-primary {
+    background: #001aff;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .tf-btn-primary:hover {
+    background: #030a25;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  }
+
+  .tf-btn-outline {
+    background: #fff;
+    color: #111;
+    border: 1.5px solid #111;
+  }
+  .tf-btn-outline:hover {
+    background-color: #333;
+    color: white;
   }
 }
