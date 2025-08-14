@@ -90,10 +90,11 @@ export const LearnPace = () => {
             <div className="learn-content">
               <h1>Learn at your place</h1>
               <p>
-                TECH ELITE SKILLS is an online school focused on your success.
+                TECH ELITE SKILLS is an online school focused on your success.{" "}
+                <br />
                 We pair you with a tech pro who guides you through learning tech
-                skills at your own pace. Get the skills and certificate you need
-                for your dream tech job.
+                skills <br /> at your own pace. Get the skills and certificate
+                you need for your dream tech job.
               </p>
             </div>
             <div className="learn-image" />

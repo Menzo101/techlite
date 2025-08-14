@@ -1072,13 +1072,14 @@
 
 /* learn at your pace  */
 .learn-container {
-  padding: 3rem 2rem;
-  margin: 0 auto;
+  padding: 2rem 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 15px;
   background-color: black;
 }
+
 .learn-content h1 {
   font-family: "Roboto", sans-serif;
 
@@ -1093,9 +1094,13 @@
   font-size: 18px;
   line-height: 1.5;
   font-family: "Inter", sans-serif;
-  max-width: 500px;
+
   color: white;
 }
+.learn-image img {
+  width: 100%;
+}
+
 /* features styles */
 .why-container {
   max-width: 900px;
@@ -2365,5 +2370,34 @@
     flex-direction: column;
     gap: 120px;
     padding: 0 1rem;
+  }
+
+  /* learn at your pace styles */
+  .learn-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .learn-content h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+
+    font-weight: 600;
+    line-height: 1.5;
+    font-weight: 800;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+  }
+  .learn-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: "Inter", sans-serif;
+
+    color: white;
+    margin: 0;
+    padding: 10px 10px;
   }
 }
